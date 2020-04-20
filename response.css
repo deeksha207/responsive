@@ -62,6 +62,9 @@ h1{
        .size{
            height:120px;
        }
+    .tips{
+        padding-bottom:40px;
+    }
 }
 @media (min-width:1000px){
     .image{
