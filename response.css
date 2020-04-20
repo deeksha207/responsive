@@ -1,0 +1,70 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.design{
+    top: 0;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/591/866/464/shapes-geometric-dark-background-gradient-wallpaper-preview.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    color:white;
+    position: relative;
+    
+}
+h1{
+    text-align: center;
+    padding: 30px;
+}
+.image{
+    position: absolute;
+    top: 50%;
+    width:fit-content;
+    margin: 0 45%;
+}
+.png{
+    max-width: 150px;
+    max-height: 150px;
+}
+.tax{
+    margin-top: 150px;
+    color:darkgray;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+}
+.block{
+    margin: 160px 20px 20px 20px;
+}
+.size{
+    height: 90px;
+    border-width: 3px ;
+    border-style: inset;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.para{
+    font-weight: bolder;
+}
+@media (min-width:670px){
+    .image{
+        margin: 0 41%;
+    }
+}
+@media (max-width:670px){
+    h1{
+        font-size: 25px;
+   
+       }
+       .image{
+           margin:0 26%;
+       }
+       .size{
+           height:120px;
+       }
+}
+@media (min-width:1000px){
+    .image{
+        margin: 0 45%;
+    }
+}
